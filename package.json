@@ -5,11 +5,19 @@
     "jeremybanka"
   ],
   "version": "0.0.0",
+  "keywords": [
+    "react",
+    "recoil",
+    "devtools"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyecuelab/recoil-devtools.git"
+  },
   "type": "module",
-  "main": "src/App.tsx",
+  "main": "dist/App.js",
   "files": [
-    "src",
-    "tsconfig.json"
+    "dist"
   ],
   "workspaces": [
     "example"
