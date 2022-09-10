@@ -10,6 +10,8 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+.yarn/cache
+.yarn/install-state.gz
 *.local
 
 # Editor directories and files
