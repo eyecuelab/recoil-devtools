@@ -30,7 +30,8 @@
     "lint": "eslint --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore .",
     "size": "size-limit",
     "start": "dts watch",
-    "test": "dts test --passWithNoTests"
+    "test": "dts test --passWithNoTests",
+    "release": "yarn build && changeset publish"
   },
   "husky": {
     "hooks": {

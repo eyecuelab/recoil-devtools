@@ -45,6 +45,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - name: Deploy to Github Pages
-        run: |
-          yarn deploy
+      # - name: Deploy to Github Pages
+      #   run: |
+      #     yarn deploy
