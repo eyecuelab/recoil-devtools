@@ -16,6 +16,10 @@
     "type": "git",
     "url": "https://github.com/eyecuelab/recoil-devtools.git"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "keywords": [
     "recoil",
     "devtools",
